@@ -1,0 +1,50 @@
+.main {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    background-color: darkgreen;
+    width: 100vw;
+}
+
+ol {
+    display: flex;
+}
+
+ol a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ol a:hover {
+    color: gold;
+    display: dropdown;
+}
+
+ol > li {
+    background-color: darkgreen;
+    width: 150px;
+    list-style-type: none; 
+}
+
+ol > li:hover {
+    color: green;
+}
+
+ol > li > .dropdown {
+    list-style-type: none;
+    position: absolute;
+    background-color: darkgreen;
+    padding: 20px;
+    visibility: hidden;
+}
+
+.products-menu:hover .dropdown {
+    visibility: visible;
+} 
+
+li {
+    padding: 10px 20px;
+}
+
